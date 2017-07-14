@@ -1,0 +1,53 @@
+/*esta regla me ayuda a cambiar el tipo de letra del documento en general*/
+*{
+	font-family: helvetica, arial, sans-serif;
+}
+
+body{
+	background: url("foto.jpg") no-repeat center center;
+	background-width: 150px;
+	background-height: 200px;
+}
+
+h1{
+	color: steelblue;
+	text-align: center;
+	font-weight: 900;
+
+}
+	
+h2{
+	color: steelblue;
+}
+
+p {
+	line-height: 1.0em;
+	text-align: justify;
+}
+
+img{
+	width: 150px;
+	height: 200px;
+	position: relative;
+}
+
+#boton{
+	width:200px;
+	height:45px;
+	border: 2px solid steelblue;
+	background-color: skyblue;
+	clear: 50%;
+}
+
+#nombre{
+	display: none;
+}
+
+#derecha{
+	float: right;
+}
+
+#izquierda{
+	float: left;
+}
+
